@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(libiptcdata VERSION 1.0.5 LANGUAGES C)
 
 # Compiler flags
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O2 -g -Wall")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2 -Wall")
 
 # Dependencies
 find_package(iconv REQUIRED)

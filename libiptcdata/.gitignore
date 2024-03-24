@@ -6,4 +6,3 @@ Makefile
 *.o
 *.lo
 libiptcdata.pc
-_stdint.h
