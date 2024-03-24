@@ -29,6 +29,7 @@
 // ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // 
 ///////////////////////////////////////////////////////////////////////////////
+#define _WIN32_WINNT 0x0A00 // Windows 10
 
 #include <windows.h>
 #ifndef _MSC_VER // [

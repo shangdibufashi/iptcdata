@@ -1,7 +1,7 @@
 
 #include <windows.h>
 
-#define snprintf _snprintf
+// #define snprintf _snprintf
 
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
