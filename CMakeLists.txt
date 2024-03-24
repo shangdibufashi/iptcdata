@@ -27,6 +27,7 @@ set(SOURCES
 add_library(iptcdata SHARED ${SOURCES})
 set_target_properties(iptcdata PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(iptcdata PROPERTIES SOVERSION 1)
+set_target_properties(iptcdata PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS TRUE)
 
 # Define include directories for the target
 target_include_directories(iptcdata PUBLIC $<INSTALL_INTERFACE:include> $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
