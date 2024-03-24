@@ -5,8 +5,8 @@ project(libiptcdata VERSION 1.0.5 LANGUAGES C)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O2 -g -Wall -Wmissing-declarations -Wmissing-prototypes")
 
 # Dependencies
-find_package(Iconv REQUIRED)
-find_package(Gettext REQUIRED)
+find_package(iconv REQUIRED)
+find_package(gettext REQUIRED)
 
 # Include directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
